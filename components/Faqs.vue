@@ -138,6 +138,53 @@
             </v-expansion-panel>
             <v-expansion-panel>
               <v-expansion-panel-header
+                >Why Is This Site So Slow?</v-expansion-panel-header
+              >
+              <v-expansion-panel-content>
+                <p>
+                  This site is hosted on the
+                  <a href="https://ipfs.io/"
+                    >InterPlanetary File System (IPFS)</a
+                  >
+                  decentralized file storage network.
+                </p>
+
+                <p>There is a performance cost to decentralization.</p>
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel>
+              <v-expansion-panel-header
+                >I've Been Waiting For Mint Confirmation For A Long
+                Time</v-expansion-panel-header
+              >
+              <v-expansion-panel-content>
+                <p>
+                  Minting transactions are sent with a modest gas fee. If there
+                  is heavy traffic on the Polygon blockchain, a minting
+                  transaction may take a while to be included in a block.
+                </p>
+                <p>Be patient. The transaction will confirm eventually.</p>
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel>
+              <v-expansion-panel-header
+                >My Clairicature Image Is Not Showing On
+                OpenSea</v-expansion-panel-header
+              >
+              <v-expansion-panel-content>
+                <p>OpenSea sometimes fails to retrieve images from IPFS.</p>
+                <p>
+                  If your Clairicature image is not showing on OpenSea, click
+                  the refresh metadata button.
+                </p>
+                <v-img
+                  alt="open-sea-refresh-button"
+                  src="./open-sea-refresh.png"
+                />
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel>
+              <v-expansion-panel-header
                 >What Is An NFT?</v-expansion-panel-header
               >
               <v-expansion-panel-content>
